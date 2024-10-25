@@ -1,0 +1,112 @@
+:root {
+    --blood-red: #BE0000;
+    --white: #ffffff;
+    --black: #242424
+}
+
+.sched-container {
+    background-color: var(--blood-red);
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    color: #ffffff;
+}
+
+.sched-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: .75rem;
+    text-align: justify;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+}
+
+.select-box {
+    border: solid 2px var(--blood-red);
+    border-radius: 1rem;
+    padding: 0 30px 0 15px;
+    color: var(--black);
+    background-color: transparent;
+}
+
+
+.sched-finder {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 3px var(--blood-red);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 375px){
+    .sched-container {
+        padding: 1.5rem;
+    }
+
+    .sched-text {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sched-container {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .sched-text {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sched-container {
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .select-container {
+        width: 350px;
+    }
+
+    .sched-finder {
+        height: 250px;
+    }
+
+    .sched-text {
+        font-size: 1.125rem;
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .select-container {
+        width: 400px;
+    }
+
+    .select-box {
+        font-size: 1.125rem;
+    }
+
+    .sched-finder {
+        height: 300px;
+    }
+
+    .sched-text {
+        font-size: 1.125rem;
+    }
+}

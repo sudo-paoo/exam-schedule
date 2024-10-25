@@ -1,0 +1,68 @@
+.footer-container {
+    height: 40vh;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer-text .copyright {
+    display: block;
+}
+
+.pd-banner,
+.develop-text {
+    display: none;
+}
+
+.pd-logo {
+    width: 90%;
+    height: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .pd-banner,
+    .develop-text {
+        display: flex;
+    }
+
+    .pd-logo {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .pd-banner {
+        height: 50%;
+        width: 50%;
+    }
+
+    .footer-text .copyright {
+        display: inline;
+    }
+
+    .footer-container {
+        height: 20vh;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-around;
+        font-size: .75rem;
+    }
+
+    .pd-logo-container {
+        display: flex;
+        align-items: end;
+        gap: 10px;
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-container {
+        height: 15vh;
+    }
+}

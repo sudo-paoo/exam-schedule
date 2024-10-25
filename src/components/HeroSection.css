@@ -1,0 +1,57 @@
+:root {
+    --blood-red: #BE0000;
+    --white: #ffffff;
+    --black: #242424
+}
+
+.hero-container {
+    background-image: url('/public/images/image-1.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: .75rem;
+}
+
+.hero-text span {
+    color: var(--blood-red);
+}
+
+.hero-img img {
+    height: 120px;  
+}
+
+
+@media screen and (min-width: 375px) {
+    .hero-img img {
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text {
+        font-size: 1.25rem;
+    }
+
+    .hero-img img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-text {
+        font-size: 1.5rem;
+    }
+
+    .hero-img img {
+        height: 400px;
+    }
+}

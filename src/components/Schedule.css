@@ -1,0 +1,78 @@
+:root {
+    --blood-red: #BE0000;
+    --white: #ffffff;
+    --black: #242424
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: calc(100vh - 80px);
+    justify-items: center;
+    justify-content: center;
+}
+
+.table-container h1 {
+    font-size: 2rem;
+}
+
+.table-container h1 span {
+    color: var(--blood-red);
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: .5rem;
+    min-width: 200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: var(--blood-red);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:hover {
+    background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 768px) {
+    .table-container {
+        padding: 4rem;
+    }
+
+    .content-table {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content-table {
+        font-size: 1.25rem;
+    }
+}
