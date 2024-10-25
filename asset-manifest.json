@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/exam-schedule/static/css/main.24b64315.css",
-    "main.js": "/exam-schedule/static/js/main.51d9c041.js",
+    "main.js": "/exam-schedule/static/js/main.0498e069.js",
     "static/media/image-1.png": "/exam-schedule/static/media/image-1.996edd0470bdb11f51b2.png",
     "index.html": "/exam-schedule/index.html",
     "main.24b64315.css.map": "/exam-schedule/static/css/main.24b64315.css.map",
-    "main.51d9c041.js.map": "/exam-schedule/static/js/main.51d9c041.js.map"
+    "main.0498e069.js.map": "/exam-schedule/static/js/main.0498e069.js.map"
   },
   "entrypoints": [
     "static/css/main.24b64315.css",
-    "static/js/main.51d9c041.js"
+    "static/js/main.0498e069.js"
   ]
 }
