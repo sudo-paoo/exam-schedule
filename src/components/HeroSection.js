@@ -34,7 +34,7 @@ function HeroSection() {
         </div>
 
         <div className='hero-img'>
-            <img src='/images/Hawks.png'/>
+            <img src='images/Hawks.png'/>
         </div>
     </div>
   )
