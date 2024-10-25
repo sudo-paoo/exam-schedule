@@ -6,8 +6,8 @@ function Footer() {
     <div className='footer-container' id='footer'>
         <div className='pd-logo-container'>
             <p className='develop-text'>Developed by:</p>
-            <img src='/images/PD_Logo.png' className='pd-logo'/>
-            <img src='/images/pd_banner.png' className='pd-banner' />
+            <img src='images/PD_Logo.png' className='pd-logo'/>
+            <img src='images/pd_banner.png' className='pd-banner' />
         </div>
 
         <div className='footer-text'>
