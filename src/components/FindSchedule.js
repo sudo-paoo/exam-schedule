@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Button } from './Button';
+import { Button } from './globals/Button';
 import { FaCaretDown  } from "react-icons/fa";
 import './FindSchedule.css';
 

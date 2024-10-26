@@ -13,8 +13,8 @@
 }
 
 .btn--primary {
-    background-color: var(--blood-red);
-    color: var(--white);
+    background-color: var(--white);
+    color: #111111;
     border: 1px solid var(--blood-red);
     border-radius: 8px;
 }
@@ -44,7 +44,7 @@
 
 
 .btn--small:hover, btn--medium:hover, .btn--large:hover {
-    background: #fff;
-    color: #242424;
-    transition: all 0.3s ease-out;
+    background: var(--blood-red);
+    color: #fff;
+    transition: all 0.12s ease-out;
 }

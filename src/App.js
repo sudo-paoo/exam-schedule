@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
+import Navbar from './components/globals/Navbar';
+import HeroSection from './/views/HeroSection';
 import FindSchedule from './components/FindSchedule';
 import Schedule from './components/Schedule';
-import Footer from './components/Footer';
+import Footer from './components/globals/Footer';
 
 function App() {
   return (

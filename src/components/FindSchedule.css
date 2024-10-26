@@ -1,11 +1,12 @@
 :root {
-    --blood-red: #BE0000;
-    --white: #ffffff;
+    /* --blood-red: #BE0000; */
+    --red:#690202f8;
+    --white: #f3f3f3;
     --black: #242424
 }
 
 .sched-container {
-    background-color: var(--blood-red);
+    background-color: var(--red);
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;

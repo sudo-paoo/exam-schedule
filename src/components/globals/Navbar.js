@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes, FaBars } from "react-icons/fa";
 import './Navbar.css';
-
+import CCSLogo from '../../assets/ccs_200x200.png'
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -46,7 +46,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <a className='navbar-logo' href='#home'>
-                    <img src='images/ccs_200x200.png' className='navbar-img' alt="Logo" />EXAMINATION<br />SCHEDULE
+                    <img src={CCSLogo}className='navbar-img' alt="CCS Logo" />EXAMINATION<br />SCHEDULE
                 </a>
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? <FaTimes className='fa-bars' /> : <FaBars className='fa-bars' />}
