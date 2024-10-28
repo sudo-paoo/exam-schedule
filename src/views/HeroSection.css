@@ -8,7 +8,7 @@
     background-image: url('../assets/image-1.png');
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 80px);
+    height: calc(80vh - 80px);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +43,10 @@
 
     .hero-img img {
         height: 300px;
+    }
+
+    .hero-container {
+        height: calc(100vh - 80px);
     }
 }
 

@@ -45,7 +45,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
-                <a className='navbar-logo' href='#home'>
+                <a className='navbar-logo' onClick={() => scrollToSection('home')}>
                     <img src={CCSLogo}className='navbar-img' alt="CCS Logo" />EXAMINATION<br />SCHEDULE
                 </a>
                 <div className='menu-icon' onClick={handleClick}>
