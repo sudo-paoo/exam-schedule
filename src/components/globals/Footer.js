@@ -1,13 +1,14 @@
 import React from 'react'
 import './Footer.css';
-
+import PDLogo from '../../assets/PD_Logo.png'
+import Banner from '../../assets/pd_banner.png'
 function Footer() {
   return (
     <div className='footer-container' id='footer'>
         <div className='pd-logo-container'>
             <p className='develop-text'>Developed by:</p>
-            <img src='images/PD_Logo.png' className='pd-logo'/>
-            <img src='images/pd_banner.png' className='pd-banner' />
+            <img src={PDLogo} className='pd-logo' alt='PD Logo'/>
+            <img src={Banner} className='pd-banner' alt='PD Banner' />
         </div>
 
         <div className='footer-text'>

@@ -1,11 +1,12 @@
 :root {
     --blood-red: #BE0000;
-    --white: #ffffff;
+    --red:#690202f8;
+    --white: #e2e2e2;
     --black: #242424
 }
 
 .navbar {
-    background: var(--blood-red);
+    background: var(--red);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -45,6 +46,7 @@
 
 .NavbarItems {
     position: relative;
+    
 }
 
 .nav-menu {
@@ -57,6 +59,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .nav-menu.active {
@@ -78,7 +81,8 @@
 }
 
 .nav-links:hover {
-    background-color: var(--blood-red);
+    background-color: var(--red);
+    scale: 1.1;
     border-radius: 0;
 }
 

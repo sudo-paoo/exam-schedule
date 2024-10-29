@@ -1,5 +1,5 @@
 .footer-container {
-    height: 40vh;
+    height: min-content;
     background-color: black;
     color: #fff;
     padding: 20px;
@@ -46,7 +46,6 @@
     }
 
     .footer-container {
-        height: 20vh;
         flex-direction: row;
         align-items: end;
         justify-content: space-around;
@@ -58,11 +57,5 @@
         align-items: end;
         gap: 10px;
         font-size: .75rem;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .footer-container {
-        height: 15vh;
     }
 }

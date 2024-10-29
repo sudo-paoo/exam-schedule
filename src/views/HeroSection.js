@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import { Button } from './Button';
+import { Button } from '../components/globals/Button';
 import './HeroSection.css';
-
+import RHawk from '../assets/Hawks.png'
 function HeroSection() {
     const [buttonSize, setButtonSize] = useState('btn--large');
 
@@ -34,7 +34,7 @@ function HeroSection() {
         </div>
 
         <div className='hero-img'>
-            <img src='images/Hawks.png'/>
+            <img src={RHawk} alt='CCS Red Hawk'/>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './Schedule.css';
-import { Button } from './Button';
+import { Button } from './globals/Button';
 import { FaFile } from "react-icons/fa";
 
 function Schedule() {
