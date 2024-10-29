@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/exam-schedule/static/css/main.24b64315.css",
-    "main.js": "/exam-schedule/static/js/main.0498e069.js",
+    "main.css": "/exam-schedule/static/css/main.bc52f47c.css",
+    "main.js": "/exam-schedule/static/js/main.978b7d14.js",
     "static/media/image-1.png": "/exam-schedule/static/media/image-1.996edd0470bdb11f51b2.png",
+    "static/media/Hawks.png": "/exam-schedule/static/media/Hawks.0a80d04c2f65fdc8a171.png",
+    "static/media/ccs_200x200.png": "/exam-schedule/static/media/ccs_200x200.a5a87bb89878bdbdacfe.png",
     "index.html": "/exam-schedule/index.html",
-    "main.24b64315.css.map": "/exam-schedule/static/css/main.24b64315.css.map",
-    "main.0498e069.js.map": "/exam-schedule/static/js/main.0498e069.js.map"
+    "main.bc52f47c.css.map": "/exam-schedule/static/css/main.bc52f47c.css.map",
+    "main.978b7d14.js.map": "/exam-schedule/static/js/main.978b7d14.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b64315.css",
-    "static/js/main.0498e069.js"
+    "static/css/main.bc52f47c.css",
+    "static/js/main.978b7d14.js"
   ]
 }
