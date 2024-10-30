@@ -31,9 +31,11 @@ function FindSchedule () {
 
             <div className='sched-finder'>
 
+              <div className='find-section-text'>Find your section below</div>
+
                 <div class="select-container">
                     <select name="section" id="section-select" className='select-box'>
-                        <option value="">--Find Your Section--</option>
+                        <option value="">--Your Section--</option>
                         <option value="BSCS-1A">BSCS-1A</option>
                         <option value="BSCS-1B">BSCS-1B</option>
                         <option value="BSCS-1C">BSCS-1C</option>

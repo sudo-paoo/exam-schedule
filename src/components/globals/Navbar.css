@@ -81,7 +81,7 @@
 }
 
 .nav-links:hover {
-    background-color: var(--red);
+    text-decoration: underline;
     scale: 1.1;
     border-radius: 0;
 }
